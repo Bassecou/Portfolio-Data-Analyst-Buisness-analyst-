@@ -114,5 +114,5 @@ Accompagnement d'une **entreprise du secteur assurance** : conception d'un sché
 
 ---
 
-*Disponible en alternance dès novembre 2027 — 1 semaine école / 3 semaines entreprise*  
+*Disponible en alternance dès novembre 2026 — 1 semaine école / 3 semaines entreprise*  
 *Secteurs visés : Finance · Banque · Conseil · ESN*
