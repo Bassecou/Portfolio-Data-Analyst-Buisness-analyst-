@@ -110,7 +110,6 @@ Accompagnement d'une **entreprise du secteur assurance** : conception d'un sché
 | 📧 Email | [basse-pro76@outlook.fr](mailto:basse-pro76@outlook.fr) |
 | 💼 LinkedIn | [linkedin.com/in/bassecou-toure](https://www.linkedin.com/in/bassecou-toure) |
 | 📍 Localisation | Paris & Île-de-France |
-| 📱 Téléphone | 07 69 53 22 78 |
 
 ---
 
