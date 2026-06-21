@@ -1,10 +1,10 @@
 # Portfolio-Data-Analyst-Buisness-analyst-
-# Hi, I'm Bassecou Touré 👋
+# Hi, I'm Bassecou Toure 👋
 
 **Alternant MSc Data Management & AI for Business — INSEEC Paris**  
 Data Analyst · Business Analyst · Consultant BI
 
-> Titulaire d'un titre RNCP Niveau 6 en Data Analyst (parcours Business Intelligence), je maîtrise SQL, Power BI, Python, Git et Jupyter Notebook — validés sur **10 projets professionnels sur cas réels**. Je recherche un contrat d'alternance de 2 ans à Paris (Finance · Banque · Conseil), disponible dès septembre 2026.
+> Titulaire d'un titre RNCP Niveau 6 en Data Analyst (parcours Business Intelligence), je maîtrise SQL, Power BI, Python, Git et Jupyter Notebook — validés sur **10 projets professionnels sur cas réels**. Je recherche un contrat d'alternance de 2 ans à Paris (Finance · Banque · Conseil), disponible dès novembre 2026.
 
 ---
 
@@ -12,7 +12,7 @@ Data Analyst · Business Analyst · Consultant BI
 
 - 🎓 En cours de formation MSc **Data Management & AI for Business** à l'INSEEC Paris
 - 📊 Profil hybride **data + marketing** avec une forte orientation Business Intelligence
-- 🏙️ Basé à **Paris et région Île-de-France**, disponible dès **septembre 2026**
+- 🏙️ Basé à **Paris et région Île-de-France**, disponible dès **novembre 2026**
 - 🔍 Veille active : Data Governance · IA générative · DataOps · Transformation digitale
 - 🌍 Langues : Français (natif) · Anglais B2 · Espagnol (notions)
 
@@ -111,5 +111,5 @@ Accompagnement d'une **entreprise du secteur assurance** : conception d'un sché
 
 ---
 
-*Disponible en alternance dès septembre 2026 — 1 semaine école / 2–3 semaines entreprise*  
+*Disponible en alternance dès novembre 2027 — 1 semaine école / 3 semaines entreprise*  
 *Secteurs visés : Finance · Banque · Conseil · ESN*
