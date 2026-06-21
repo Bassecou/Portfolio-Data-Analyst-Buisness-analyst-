@@ -1,3 +1,6 @@
+<div align="center">
+  <img src="img/Image 1.jpg" width="150" style="border-radius: 50%;" />
+</div>
 # Portfolio-Data-Analyst-Buisness-analyst-
 # Hi, I'm Bassecou Toure 👋
 
