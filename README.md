@@ -5,7 +5,7 @@
 ### Data Analyst · Chef de projet Data · Consultant BI
 #### Data ESN · Le Havre, France
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Bassecou_Touré-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/bassecou-toure)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Bassecou_Toure-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/bassecou-toure)
 [![Email](https://img.shields.io/badge/Email-basse--pro76@outlook.fr-D14836?style=flat&logo=gmail)](mailto:basse-pro76@outlook.fr)
 </div>
 
