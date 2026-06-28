@@ -1,117 +1,119 @@
 <div align="center">
   <img src="img/Image 1.jpg" width="150" style="border-radius: 50%;" />
+
+# Bassecou Touré
+### Data Analyst · Chef de projet Data · Consultant BI
+#### Data ESN · Le Havre, France
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Bassecou_Touré-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/bassecou-toure)
+[![Email](https://img.shields.io/badge/Email-basse--pro76@outlook.fr-D14836?style=flat&logo=gmail)](mailto:basse-pro76@outlook.fr)
+
 </div>
-# Portfolio-Data-Analyst-Buisness-analyst-
-# Hi, I'm Bassecou Toure 👋
-
-**Alternant MSc Data Management & AI for Business — INSEEC Paris**  
-Data Analyst · Business Analyst · Consultant BI
-
-> Titulaire d'un titre RNCP Niveau 6 en Data Analyst (parcours Business Intelligence), je maîtrise SQL, Power BI, Python, Git et Jupyter Notebook — validés sur **10 projets professionnels sur cas réels**. Je recherche un contrat d'alternance de 2 ans à Paris (Finance · Banque · Conseil), disponible dès novembre 2026.
 
 ---
 
-## About Me
+## À propos
 
-- 🎓 En cours de formation MSc **Data Management & AI for Business** à l'INSEEC Paris
-- 📊 Profil hybride **data + marketing** avec une forte orientation Business Intelligence
-- 🏙️ Basé à **Paris et région Île-de-France**, disponible dès **novembre 2026**
-- 🔍 Veille active : Data Governance · IA générative · DataOps · Transformation digitale
-- 🌍 Langues : Français (natif) · Anglais B2 · Espagnol (notions)
+Consultant Data Analyst chez Data ESN, je dispose d'un titre RNCP Niveau 6 en Data Analyst (parcours Business Intelligence) validé sur **10 projets professionnels sur cas réels**. Orienté management et innovation, je candidate pour une mission de **Data Analyst Chef de projet** chez **Aéroworld**, leader mondial de l'industrie aéronautique.
 
 ---
 
-## Skills
+## Compétences
 
-**Langages & Outils**
-`SQL (PostgreSQL · MySQL)` · `Python (Pandas · NumPy · Scikit-learn)` · `Git / GitHub` · `Jupyter Notebook` · `Excel (Power Query · TCD)` · `ETL`
-
-**Visualisation & BI**
-`Power BI (DAX · dashboards interactifs)` · `Tableau` · `Reporting & KPIs` · `Azure Data (DP-900 en cours)`
-
-**Méthodes**
-`Agile / Scrum` · `Modélisation de données` · `Analyse prédictive` · `Transformation digitale` · `Gestion de projet`
-
-**Certifications**
-- 🟡 PL-300 Microsoft Power BI *(en cours)*
-- 🟡 DP-900 Azure Data Fundamentals *(en cours)*
-- ✅ Certification Marketing Digital OPCAST *(2023)*
+| Catégorie | Outils & Technologies |
+|---|---|
+| **Langages** | SQL · Python (Pandas · NumPy · Scikit-learn) · DAX |
+| **Visualisation** | Power BI · Tableau · Excel (TCD · Power Query) |
+| **Méthodes** | Gestion de projet · Analyse des besoins · CDC · RGPD · Storytelling |
+| **Outils** | Git · GitHub · Jupyter Notebook · ETL · Loom |
+| **Certifications** | PL-300 Power BI *(en cours)* · DP-900 Azure *(en cours)* |
 
 ---
 
-## Projects
+## Projets
 
-### 📊 Analyse de satisfaction client — SQL / PostgreSQL
-Accompagnement de **BestMarket** (grande distribution) dans l'analyse des retours clients dans le cadre du projet *RetailInsight360*. Rédaction de requêtes SQL complexes (JOIN, sous-requêtes, agrégations) sur +10 000 lignes — identification de **3 axes d'amélioration stratégiques** sur le parcours en magasin et le NPS.  
-`SQL` `PostgreSQL` `Modélisation relationnelle`
+> 💡 Cliquez sur le titre de chaque projet pour accéder au détail, au code et aux livrables.
 
 ---
 
-### 🛒 Optimisation de la gestion des stocks — Python / Excel
-Consolidation de données multi-sources (ERP, e-commerce WordPress, table de correspondance) pour **BottleNeck**, marchand de vin haut de gamme. Nettoyage des anomalies, analyse 20/80, étude des marges et de la rotation des stocks — **réduction des anomalies de stock de 25%**.  
-`Python` `Pandas` `NumPy` `Excel Power Query` `Jupyter Notebook`
+### 📊 [Dashboard de pilotage PMO — Power BI](https://github.com/bassecou-toure/P7-dashboard-pmo-powerbi)
+`Power BI` `DAX` `Power Query` `Gestion de projet` `Storytelling`
+> Sanitoral · Tableau de bord de suivi de projets · Automatisation Power Query · Restitution client
 
 ---
 
-### 📈 Dashboard de pilotage commercial — Power BI / DAX
-Conception d'un tableau de bord interactif multi-sources (CA, marges, taux de conversion) pour **BottleNeck**, avec recommandations business en storytelling. Reporting automatisé : **3h → 20 min**.  
-`Power BI` `DAX` `Power Query` `Storytelling`
-
----
-
-### 🦷 Tableau de bord de suivi de projets — Power BI
-Déploiement chez **Sanitoral** (industrie bucco-dentaire internationale) d'un dashboard PMO : suivi de l'avancement des projets, détection des retards, contrôle des performances. Automatisation du nettoyage via Power Query pour mise à jour hebdomadaire autonome.  
-`Power BI` `DAX` `Power Query` `Product Strategy Canvas`
-
----
-
-### 🏀 Analyse de données NBA — Excel
-Analyse des performances de la saison régulière NBA 2024/2025 pour le club **Les Pionniers**. Tableaux croisés dynamiques, graphiques et indicateurs de performance transformés en recommandations sur le recrutement, l'entraînement et le style de jeu.  
-`Excel` `TCD` `Data Visualization` `Statistiques`
-
----
-
-### 🔐 Conformité RGPD & anonymisation — SQL / Power Query
-Accompagnement d'un **courtier en assurance automobile** sanctionné par la CNIL. Suppression des données personnelles, contrôle des accès, anonymisation documentée dans un rapport technique structuré.  
-`SQL` `SQLite` `Microsoft Power Query` `RGPD`
-
----
-
-### 🏠 Analyse prédictive immobilière — Python
-Mission chez **ESN Data** pour *Les plus Beaux Logis de Paris* : analyse de la série temporelle des prix immobiliers parisiens (2017–2021), régression linéaire prédictive et algorithme de **clustering non supervisé** pour classifier automatiquement les biens entrants.  
+### 🏠 [Analyse prédictive immobilière — Python / ML](https://github.com/bassecou-toure/P8-analyse-predictive-immobilier)
 `Python` `Pandas` `Scikit-learn` `Régression linéaire` `Clustering`
+> Les plus Beaux Logis de Paris · Série temporelle · Clustering non supervisé · Recommandations stratégiques
 
 ---
 
-### 🎮 Segmentation de marché — Analyse stratégique
-Identification d'une opportunité de marché pour **UOI Games** (studio jeu vidéo) en vue du lancement d'un premier jeu Triple A. Analyse SWOT, PESTEL, enquête utilisateur, corrélations statistiques et estimation prévisionnelle des ventes.  
-`Python` `Statistiques` `Excel` `SWOT / PESTEL` `Segmentation`
+### 📈 [Dashboard performances BI — Power BI / ETL](https://github.com/bassecou-toure/P9-dashboard-performances-bi)
+`Power BI` `DAX` `ETL` `Power Query` `Architecture data`
+> BottleNeck · KPIs stratégiques · Intégration multi-sources · Recommandations business
 
 ---
 
-### 🗄️ Conception de base de données — SQL
-Accompagnement d'une **entreprise du secteur assurance** : conception d'un schéma relationnel, chargement des données, rédaction des premières requêtes SQL analytiques et documentation technique complète.  
+### 🛒 [Optimisation & nettoyage des données — Python](https://github.com/bassecou-toure/P6-nettoyage-donnees-stock)
+`Python` `Pandas` `NumPy` `Power Query` `RGPD`
+> BottleNeck · Rapprochement ERP + e-commerce · Analyse 20/80 · Corrélation commerciale
+
+---
+
+### 🎮 [Analyse business & segmentation de marché](https://github.com/bassecou-toure/P10-analyse-business-segmentation)
+`Python` `Statistiques` `SWOT / PESTEL` `Segmentation` `Enquête utilisateur`
+> UOI Games · Identification opportunité marché Triple A · Estimation prévisionnelle des ventes
+
+---
+
+### 🦷 [Analyse de satisfaction client — SQL](https://github.com/bassecou-toure/P5-satisfaction-client-sql)
+`SQL` `PostgreSQL` `NPS` `Analyse métier`
+> BestMarket · RetailInsight360 · Requêtes complexes · 3 axes d'amélioration stratégiques
+
+---
+
+### 🔐 [Conformité RGPD & anonymisation — SQL](https://github.com/bassecou-toure/P4-rgpd-anonymisation)
+`SQL` `SQLite` `Power Query` `RGPD`
+> Courtier assurance auto · Sanction CNIL · Anonymisation · Documentation technique
+
+---
+
+### 🗄️ [Conception de base de données — SQL](https://github.com/bassecou-toure/P3-conception-bdd-sql)
 `SQL` `Modélisation relationnelle` `PostgreSQL`
+> Secteur assurance · Schéma relationnel · Requêtes analytiques · Documentation
 
 ---
 
-## Currently Learning
-
-- ☁️ **Azure Data Fundamentals** (DP-900) — Cloud & data storage
-- 📊 **Power BI PL-300** — Certification avancée en visualisation et DAX
-- 🤖 **IA générative & DataOps** — Veille et expérimentation active
+### 🏀 [Analyse de données NBA — Excel](https://github.com/bassecou-toure/P2-analyse-nba-excel)
+`Excel` `TCD` `Data Visualization` `Statistiques`
+> Les Pionniers · NBA 2024/2025 · Recommandations recrutement et style de jeu
 
 ---
 
-## Let's Connect
+## Portfolio complet
+
+| Livrable | Lien |
+|---|---|
+| 🗺️ Carte mentale | [Voir sur Canva](#) |
+| 📋 Rapport besoins métiers | [Voir le PDF](#) |
+| 📄 Cahier des charges | [Voir le PDF](#) |
+| 📅 Gantt Power BI | [Voir le dashboard](#) |
+| 📊 Dashboard veille métier | [Voir sur Power BI](#) |
+| 👤 Dashboard profil | [Voir sur Power BI](#) |
+| 🎥 Vidéo de formation Loom | [Voir la vidéo](#) |
+| 📝 Procédure documentation | [Voir le PDF](#) |
+
+---
+
+## Contact
 
 | | |
 |---|---|
 | 📧 Email | [basse-pro76@outlook.fr](mailto:basse-pro76@outlook.fr) |
 | 💼 LinkedIn | [linkedin.com/in/bassecou-toure](https://www.linkedin.com/in/bassecou-toure) |
-| 📍 Localisation | Paris & Île-de-France |
+| 📍 Localisation | Le Havre, Normandie — France |
 
 ---
 
-*Disponible en alternance dès novembre 2026 — 1 semaine école / 3 semaines entreprise*  
-*Secteurs visés : Finance · Banque · Conseil · ESN*
+*Consultant Data Analyst · Data ESN · Disponible pour missions*
+*Secteurs d'expertise : Aéronautique · Finance · Industrie · Conseil · ESN*
