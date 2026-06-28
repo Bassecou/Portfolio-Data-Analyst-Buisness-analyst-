@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bassecou Touré — Data Analyst · Chef de projet Data</title>
+<style>
+  :root {
+    --purple: #534AB7;
+    --purple-light: #EEEDFE;
+    --teal: #1D9E75;
+    --teal-light: #E1F5EE;
+    --amber: #EF9F27;
+    --amber-light: #FAEEDA;
+    --gray-dark: #2C2C2A;
+    --gray: #444441;
+    --gray-mid: #888780;
+    --gray-light: #F1EFE8;
+    --white: #ffffff;
+    --border: #E0DED8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--gray-light); color: var(--gray-dark); line-height: 1.6; }
+
+  /* HEADER */
+  header { background: var(--white); border-bottom: 1px solid var(--border); padding: 48px 24px 40px; text-align: center; }
+  .avatar { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 3px solid var(--purple-light); margin-bottom: 20px; }
+  header h1 { font-size: 28px; font-weight: 600; color: var(--gray-dark); margin-bottom: 6px; }
+  header .subtitle { font-size: 15px; color: var(--purple); font-weight: 500; margin-bottom: 4px; }
+  header .company { font-size: 13px; color: var(--gray-mid); margin-bottom: 20px; }
+  .badges { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .badge { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 20px; font-size: 12px; font-weight: 500; text-decoration: none; transition: opacity .15s; }
+  .badge:hover { opacity: .8; }
+  .badge-purple { background: var(--purple); color: var(--white); }
+  .badge-teal { background: var(--teal); color: var(--white); }
+  .badge-gray { background: var(--gray-light); color: var(--gray); border: 1px solid var(--border); }
+
+  /* MAIN */
+  main { max-width: 860px; margin: 0 auto; padding: 40px 20px; }
+
+  /* ABOUT */
+  .about { background: var(--white); border-radius: 12px; border: 1px solid var(--border); padding: 28px; margin-bottom: 32px; }
+  .about p { font-size: 14px; color: var(--gray); line-height: 1.7; }
+  .about strong { color: var(--purple); }
+
+  /* SECTION TITLE */
+  .section-title { font-size: 11px; font-weight: 600; color: var(--gray-mid); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 14px; }
+
+  /* SKILLS */
+  .skills { background: var(--white); border-radius: 12px; border: 1px solid var(--border); padding: 28px; margin-bottom: 32px; }
+  .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+  .skill-block h4 { font-size: 12px; font-weight: 600; color: var(--gray-mid); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 5px; }
+  .tag { background: var(--gray-light); color: var(--gray); font-size: 11px; padding: 3px 9px; border-radius: 12px; border: 1px solid var(--border); }
+  .tag-purple { background: var(--purple-light); color: var(--purple); border-color: #AFA9EC; }
+  .tag-teal { background: var(--teal-light); color: var(--teal); border-color: #5DCAA5; }
+  .tag-amber { background: var(--amber-light); color: #854F0B; border-color: #EF9F27; }
+
+  /* PROJECTS */
+  .projects { margin-bottom: 32px; }
+  .project-card { background: var(--white); border-radius: 12px; border: 1px solid var(--border); padding: 22px 24px; margin-bottom: 12px; text-decoration: none; display: block; transition: border-color .15s, box-shadow .15s; }
+  .project-card:hover { border-color: var(--purple); box-shadow: 0 2px 12px rgba(83,74,183,.08); }
+  .project-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+  .project-title { font-size: 14px; font-weight: 600; color: var(--gray-dark); display: flex; align-items: center; gap: 8px; }
+  .project-arrow { font-size: 14px; color: var(--gray-mid); flex-shrink: 0; }
+  .project-desc { font-size: 12px; color: var(--gray-mid); margin-bottom: 10px; }
+  .project-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+
+  /* PORTFOLIO LINKS */
+  .portfolio-links { background: var(--white); border-radius: 12px; border: 1px solid var(--border); padding: 28px; margin-bottom: 32px; }
+  .link-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+  .link-item { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border: 1px solid var(--border); border-radius: 8px; text-decoration: none; color: var(--gray); font-size: 13px; transition: border-color .15s; }
+  .link-item:hover { border-color: var(--purple); color: var(--purple); }
+  .link-icon { font-size: 16px; }
+
+  /* CONTACT */
+  .contact { background: var(--purple); border-radius: 12px; padding: 28px; text-align: center; }
+  .contact h2 { color: var(--white); font-size: 18px; margin-bottom: 8px; }
+  .contact p { color: rgba(255,255,255,.75); font-size: 13px; margin-bottom: 20px; }
+  .contact-links { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .contact-link { background: rgba(255,255,255,.12); color: var(--white); padding: 8px 18px; border-radius: 20px; text-decoration: none; font-size: 13px; font-weight: 500; transition: background .15s; }
+  .contact-link:hover { background: rgba(255,255,255,.22); }
+
+  /* FOOTER */
+  footer { text-align: center; padding: 24px; font-size: 12px; color: var(--gray-mid); }
+
+  @media (max-width: 600px) {
+    header h1 { font-size: 22px; }
+    .skills-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="img/Image 1.jpg" alt="Bassecou Touré" class="avatar" onerror="this.style.display='none'">
+  <h1>Bassecou Touré</h1>
+  <p class="subtitle">Data Analyst · Chef de projet Data · Consultant BI</p>
+  <p class="company">Data ESN · Le Havre, France</p>
+  <div class="badges">
+    <a href="https://www.linkedin.com/in/bassecou-toure" target="_blank" class="badge badge-purple">💼 LinkedIn</a>
+    <a href="mailto:basse-pro76@outlook.fr" class="badge badge-teal">✉️ basse-pro76@outlook.fr</a>
+    <a href="https://github.com/Bassecou" target="_blank" class="badge badge-gray">⚡ GitHub</a>
+  </div>
+</header>
+
+<main>
+
+  <div class="about">
+    <p class="section-title">À propos</p>
+    <p>Consultant Data Analyst chez <strong>Data ESN</strong>, titulaire d'un titre RNCP Niveau 6 en Data Analyst (parcours Business Intelligence) validé sur <strong>10 projets professionnels sur cas réels</strong>. Orienté management et innovation, je candidate pour une mission de <strong>Data Analyst Chef de projet</strong> chez <strong>Aéroworld</strong>, leader mondial de l'industrie aéronautique.</p>
+  </div>
+
+  <div class="skills">
+    <p class="section-title">Compétences</p>
+    <div class="skills-grid">
+      <div class="skill-block">
+        <h4>Langages</h4>
+        <div class="tags">
+          <span class="tag tag-purple">SQL</span>
+          <span class="tag tag-purple">Python</span>
+          <span class="tag tag-purple">DAX</span>
+          <span class="tag tag-purple">Pandas</span>
+          <span class="tag tag-purple">Scikit-learn</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h4>Visualisation</h4>
+        <div class="tags">
+          <span class="tag tag-teal">Power BI</span>
+          <span class="tag tag-teal">Tableau</span>
+          <span class="tag tag-teal">Power Query</span>
+          <span class="tag tag-teal">Excel TCD</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h4>Méthodes</h4>
+        <div class="tags">
+          <span class="tag tag-amber">Gestion de projet</span>
+          <span class="tag tag-amber">CDC fonctionnel</span>
+          <span class="tag tag-amber">RGPD</span>
+          <span class="tag tag-amber">ETL</span>
+          <span class="tag tag-amber">Storytelling</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="projects">
+    <p class="section-title">Projets</p>
+
+    <a href="https://github.com/Bassecou/P7-dashboard-pmo-powerbi" target="_blank" class="project-card">
+      <div class="project-header">
+        <span class="project-title">📊 Dashboard de pilotage PMO — Power BI</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <p class="project-desc">Sanitoral · Tableau de bord PMO · Automatisation Power Query · Restitution client en storytelling</p>
+      <div class="project-tags">
+        <span class="tag tag-teal">Power BI</span><span class="tag tag-teal">DAX</span><span class="tag tag-teal">Power Query</span><span class="tag tag-amber">Gestion de projet</span>
+      </div>
+    </a>
+
+    <a href="https://github.com/Bassecou/P8-analyse-predictive-immobilier" target="_blank" class="project-card">
+      <div class="project-header">
+        <span class="project-title">🏠 Analyse prédictive immobilière — Python / ML</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <p class="project-desc">Les plus Beaux Logis de Paris · Série temporelle · Clustering non supervisé · Régression linéaire</p>
+      <div class="project-tags">
+        <span class="tag tag-purple">Python</span><span class="tag tag-purple">Scikit-learn</span><span class="tag tag-purple">Clustering</span><span class="tag tag-purple">Régression</span>
+      </div>
+    </a>
+
+    <a href="https://github.com/Bassecou/P9-dashboard-performances-bi" target="_blank" class="project-card">
+      <div class="project-header">
+        <span class="project-title">📈 Dashboard performances BI — Power BI / ETL</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <p class="project-desc">BottleNeck · KPIs stratégiques · Architecture data · Recommandations business</p>
+      <div class="project-tags">
+        <span class="tag tag-teal">Power BI</span><span class="tag tag-teal">ETL</span><span class="tag tag-teal">Power Query</span><span class="tag tag-amber">Architecture data</span>
+      </div>
+    </a>
+
+    <a href="https://github.com/Bassecou/P6-nettoyage-donnees-stock" target="_blank" class="project-card">
+      <div class="project-header">
+        <span class="project-title">🛒 Optimisation & nettoyage des données — Python</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <p class="project-desc">BottleNeck · Rapprochement ERP + e-commerce · Analyse 20/80 · Corrélation commerciale</p>
+      <div class="project-tags">
+        <span class="tag tag-purple">Python</span><span class="tag tag-purple">Pandas</span><span class="tag tag-purple">NumPy</span><span class="tag tag-amber">RGPD</span>
+      </div>
+    </a>
+
+    <a href="https://github.com/Bassecou/P10-analyse-business-segmentation" target="_blank" class="project-card">
+      <div class="project-header">
+        <span class="project-title">🎮 Analyse business & segmentation de marché</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <p class="project-desc">UOI Games · Triple A · SWOT · PESTEL · Enquête utilisateur · Estimation prévisionnelle</p>
+      <div class="project-tags">
+        <span class="tag tag-purple">Python</span><span class="tag tag-amber">SWOT/PESTEL</span><span class="tag tag-amber">Segmentation</span><span class="tag tag-amber">Posture consultant</span>
+      </div>
+    </a>
+
+    <a href="https://github.com/Bassecou/P5-satisfaction-client-sql" target="_blank" class="project-card">
+      <div class="project-header">
+        <span class="project-title">🦷 Analyse de satisfaction client — SQL</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <p class="project-desc">BestMarket · RetailInsight360 · Requêtes complexes · 3 axes d'amélioration stratégiques</p>
+      <div class="project-tags">
+        <span class="tag tag-purple">SQL</span><span class="tag tag-purple">PostgreSQL</span><span class="tag tag-amber">NPS</span><span class="tag tag-amber">Analyse métier</span>
+      </div>
+    </a>
+
+    <a href="https://github.com/Bassecou/P4-rgpd-anonymisation" target="_blank" class="project-card">
+      <div class="project-header">
+        <span class="project-title">🔐 Conformité RGPD & anonymisation — SQL</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <p class="project-desc">Courtier assurance auto · Sanction CNIL · Anonymisation · Documentation technique</p>
+      <div class="project-tags">
+        <span class="tag tag-purple">SQL</span><span class="tag tag-purple">SQLite</span><span class="tag tag-teal">Power Query</span><span class="tag tag-amber">RGPD</span>
+      </div>
+    </a>
+
+    <a href="https://github.com/Bassecou/P3-conception-bdd-sql" target="_blank" class="project-card">
+      <div class="project-header">
+        <span class="project-title">🗄️ Conception de base de données — SQL</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <p class="project-desc">Secteur assurance · Schéma relationnel · Requêtes analytiques · Documentation</p>
+      <div class="project-tags">
+        <span class="tag tag-purple">SQL</span><span class="tag tag-purple">PostgreSQL</span><span class="tag tag-amber">Modélisation</span>
+      </div>
+    </a>
+
+    <a href="https://github.com/Bassecou/P2-analyse-nba-excel" target="_blank" class="project-card">
+      <div class="project-header">
+        <span class="project-title">🏀 Analyse de données NBA — Excel</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <p class="project-desc">Les Pionniers · NBA 2024/2025 · TCD · Recommandations recrutement et style de jeu</p>
+      <div class="project-tags">
+        <span class="tag tag-teal">Excel</span><span class="tag tag-teal">TCD</span><span class="tag tag-teal">Data Visualization</span><span class="tag tag-amber">Statistiques</span>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="portfolio-links">
+    <p class="section-title">Portfolio complet — Candidature Aéroworld</p>
+    <div class="link-grid">
+      <a href="#" class="link-item"><span class="link-icon">🗺️</span> Carte mentale</a>
+      <a href="#" class="link-item"><span class="link-icon">📋</span> Rapport besoins métiers</a>
+      <a href="#" class="link-item"><span class="link-icon">📄</span> Cahier des charges</a>
+      <a href="#" class="link-item"><span class="link-icon">📅</span> Gantt Power BI</a>
+      <a href="#" class="link-item"><span class="link-icon">📊</span> Dashboard veille métier</a>
+      <a href="#" class="link-item"><span class="link-icon">👤</span> Dashboard profil</a>
+      <a href="#" class="link-item"><span class="link-icon">🎥</span> Vidéo de formation Loom</a>
+      <a href="#" class="link-item"><span class="link-icon">📝</span> Procédure documentation</a>
+    </div>
+  </div>
+
+  <div class="contact">
+    <h2>Me contacter</h2>
+    <p>Consultant Data Analyst · Data ESN · Disponible pour missions</p>
+    <div class="contact-links">
+      <a href="mailto:basse-pro76@outlook.fr" class="contact-link">✉️ basse-pro76@outlook.fr</a>
+      <a href="https://www.linkedin.com/in/bassecou-toure" target="_blank" class="contact-link">💼 LinkedIn</a>
+      <a href="https://github.com/Bassecou" target="_blank" class="contact-link">⚡ GitHub</a>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  Bassecou Touré · Data Analyst · Data ESN · Le Havre, France
+</footer>
+
+</body>
+</html>
