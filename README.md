@@ -83,7 +83,7 @@ Consultant Data Analyst chez Data ESN, je dispose d'un titre RNCP Niveau 6 en Da
 
 ---
 
-### 🏀 [Analyse de données NBA — Excel](https://github.com/bassecou-toure/P2-analyse-nba-excel)
+### 🏀 ### 🏀 [Analyse de données NBA — Excel](https://github.com/Bassecou/P2-analyse-nba-excel)
 `Excel` `TCD` `Data Visualization` `Statistiques`
 > Les Pionniers · NBA 2024/2025 · Recommandations recrutement et style de jeu
 
