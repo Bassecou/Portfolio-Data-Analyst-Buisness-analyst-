@@ -91,15 +91,13 @@ Consultant Data Analyst chez Data ESN, je dispose d'un titre RNCP Niveau 6 en Da
 
 | Livrable | Lien |
 |---|---|
-| 🗺️ Carte mentale | [Voir sur Canva](#) |
-| 📋 Rapport besoins métiers | [Voir le PDF](#) |
-| 📄 Cahier des charges | [Voir le PDF](#) |
-| 📅 Gantt Power BI | [Voir le dashboard](#) |
-| 📊 Dashboard veille métier | [Voir sur Power BI](#) |
-| 👤 Dashboard profil | [Voir sur Power BI](#) |
-| 🎥 Vidéo de formation Loom | [Voir la vidéo](#) |
-| 📝 Procédure documentation | [Voir le PDF](#) |
-
+| 🧠 Carte mentale | [Cliquez ici](https://drive.google.com/file/d/1mV0Mn9S0sfv9Yw6uzog-eWUNdf-G3y4r/view?usp=drive_link) |
+| 📄 Rapport besoins métiers | [Cliquez ici](https://docs.google.com/document/d/19b4EMzOXu11l58tvAtopDxBVYw3Ivn-t/edit?usp=drive_link&ouid=104385378359026450561&rtpof=true&sd=true) |
+| 📋 Cahier des charges | [Cliquez ici](https://docs.google.com/presentation/d/1HuOHxD64tmmnZTGpgEPucUxxUsfyzWfc/edit?usp=sharing&ouid=104385378359026450561&rtpof=true&sd=true) |
+| 📊 Gantt Power BI | [Cliquez ici](https://drive.google.com/file/d/1KO1QXtf1cyLFSXwFrOsRZwbnmtqCNdZU/view?usp=sharing) |
+| 📈 Dashboards Power BI (veille métier & profil) | [Cliquez ici](https://drive.google.com/file/d/1Ur3IOPKOH7cVU7--wpm2bcdtCJILBuOy/view?usp=drive_link) |
+| 🎥 Vidéo de formation Loom | [Cliquez ici](https://drive.google.com/file/d/1HU1P4W6BBfjlWI_ARFPu4lRho0omokc5/view?usp=sharing) |
+| 📝 Procédure documentation | [Cliquez ici](https://docs.google.com/document/d/1cm2L1PHGWGf6lxiKetkZeDk_JruPrUZaBdKDqBThAtM/edit?usp=sharing) |
 ---
 
 ## Contact
